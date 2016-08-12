@@ -60,10 +60,12 @@ $(function() {
         var entryAfterChange;
         beforeEach(function (done) {
             // Loads the first feed (index of 0)
-            loadFeed(0, done);
-            entryAfterChange = $('.feed a').html();
-            // Loads the third feed (index of 2)
+            loadFeed(0, function() {
+            //assign $('.feed').html() to variable entryAfterChange
+            entryAfterChange = $('.feed').html();
+            //Loads the third feed (index of 2)
             loadFeed(2, done);
+            });
         });
 
         it('new feed loaded - content changes', function () {
