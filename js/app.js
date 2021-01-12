@@ -9,17 +9,17 @@
 // The names and URLs to all of the feeds we'd like available.
 var allFeeds = [
     {
-        name: 'Udacity Blog',
-        url: 'http://blog.udacity.com/feed'
+        name: 'The Crazy Programmer',
+        url: 'http://www.thecrazyprogrammer.com/feed'
     }, {
-        name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
+        name: 'Sitepoint',
+        url: 'https://www.sitepoint.com/feed/'
     }, {
-        name: 'HTML5 Rocks',
-        url: 'http://feeds.feedburner.com/html5rocks'
+        name: 'Ray Wenderlich | Tutorials for iPhone & iOS Developers and Gamers RSS Feed',
+        url: 'https://www.raywenderlich.com/feed'
     }, {
-        name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        name: 'CSS-Tricks RSS Feed',
+        url: 'https://css-tricks.com/feed/'
     }
 ];
 
